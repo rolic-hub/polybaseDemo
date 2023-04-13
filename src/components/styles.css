@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.users-address {
+  text-align: center;
+  color: brown;
+  font-style: italic;
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.textcontainer {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(238, 237, 232);
+  padding: 20px;
+}
+
+.text-input {
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+.text-button {
+  background-color: rgb(102, 102, 242);
+  margin-top: 10px;
+  margin-right: 10px;
+  color: black;
+}
+.text-form {
+  display: flex;
+  justify-content: space-between;
+}
+.reciever {
+  margin-bottom: 20px;
+}
+.add-member {
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+.add-member-button {
+  background-color: rgb(138, 232, 208);
+  margin-top: 10px;
+  margin-right: 10px;
+  color: black;
+}
+.add-member-div {
+  display: flex;
+  justify-content: space-between;
+}
+.text-text {
+  background-color: rgb(131, 234, 234);
+  padding: 5px;
+  font-weight: 500;
+}
+.members-side {
+  margin-left: 7rem;
+  margin-right: 4rem;
+}
+.members-title {
+  background-color: aliceblue;
+}
+.members-list {
+  border-style: groove;
+  background-color: rgb(207, 241, 241);
+  width: 20rem;
+  text-align: left;
+  padding-left: 5px;
+}
+.members-desc {
+  font-size: small;
+}
+.members-subtitle {
+  font-weight: 600;
+}
+.group-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  justify-content: space-between;
+}
+.group-button {
+    width: fit-content;
+    background-color: azure;
+}
+.members-list:hover {
+    cursor: pointer;
+}
