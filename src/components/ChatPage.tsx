@@ -103,8 +103,8 @@ const ChatPage = () => {
           id,
           timestamp,
           message,
-          walletAddress,
           "",
+          walletAddress,
           db.collection("User").record(ispublicKey),
         ]);
       console.log(CreaMess);
